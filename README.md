@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>تعلم السباحة مع المدرب قاسم | Coach Qasem</title>
+    <title>Learn to Swim with Coach Qasem | Professional Swimming Lessons</title>
     <style>
         * {
             margin: 0;
@@ -36,7 +36,7 @@
         }
         
         .header h1 {
-            font-size: 2.2rem;
+            font-size: 2.5rem;
             margin-bottom: 15px;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
         }
@@ -74,14 +74,14 @@
         
         .benefits ul {
             list-style: none;
-            padding-right: 20px;
+            padding-left: 20px;
         }
         
         .benefits li {
             padding: 10px 0;
             border-bottom: 1px dashed #eee;
             position: relative;
-            padding-right: 30px;
+            padding-left: 30px;
             font-size: 1.1rem;
         }
         
@@ -90,7 +90,7 @@
             color: #0077b6;
             font-weight: bold;
             position: absolute;
-            right: 0;
+            left: 0;
             font-size: 1.2rem;
         }
         
@@ -100,7 +100,7 @@
             border-radius: 10px;
             text-align: center;
             margin: 25px 0;
-            border-right: 5px solid #ff9e00;
+            border-left: 5px solid #ff9e00;
         }
         
         .free-trial h3 {
@@ -145,7 +145,7 @@
         }
         
         .btn i {
-            margin-left: 10px;
+            margin-right: 10px;
             font-size: 1.4rem;
         }
         
@@ -166,13 +166,11 @@
             display: block;
             color: white;
             text-decoration: none;
-            direction: ltr;
         }
         
         .instagram-handle {
             font-size: 1.3rem;
             margin: 10px 0;
-            direction: ltr;
         }
         
         .slogan {
@@ -191,8 +189,40 @@
             font-weight: bold;
         }
         
+        .pricing {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 5px solid #0077b6;
+        }
+        
+        .pricing h3 {
+            color: #023e8a;
+            margin-bottom: 15px;
+        }
+        
+        .price-item {
+            margin: 15px 0;
+            padding: 10px;
+            border-bottom: 1px dashed #ddd;
+        }
+        
+        .new-price {
+            font-size: 1.8rem;
+            color: #0096c7;
+            font-weight: bold;
+        }
+        
+        .old-price {
+            text-decoration: line-through;
+            color: #999;
+            margin-left: 10px;
+            font-size: 1.2rem;
+        }
+        
         @media (max-width: 768px) {
-            .header h1 { font-size: 1.8rem; }
+            .header h1 { font-size: 2rem; }
             .header h2 { font-size: 1.2rem; }
             .btn { font-size: 1.1rem; padding: 15px; }
             .content { padding: 20px; }
@@ -202,54 +232,67 @@
 </head>
 <body>
     <div class="container">
-        <!-- الهيدر -->
+        <!-- Header -->
         <div class="header">
-            <h1>تعلم السباحة مع المدرب قاسم</h1>
-            <h2>دروس سباحة احترافية للأطفال • المراهقين • البالغين</h2>
-            <h2>من المبتدئين إلى المتقدمين</h2>
+            <h1>LEARN TO SWIM WITH COACH QASEM</h1>
+            <h2>Professional Swimming Lessons</h2>
+            <h2>Kids • Teens • Adults | Beginner to Advanced</h2>
         </div>
         
         <div class="tagline">
-            تدريب ذكي. تقدم سريع
+            SMART TRAINING. FAST PROGRESS.
         </div>
         
-        <!-- المحتوى -->
+        <!-- Content -->
         <div class="content">
-            <!-- المميزات -->
+            <!-- Benefits -->
             <div class="benefits">
-                <h3>لماذا تختار المدرب قاسم؟</h3>
+                <h3>Why Choose Coach Qasem?</h3>
                 <ul>
-                    <li>مدرب سباحة معتمد وذو خبرة</li>
-                    <li>تدريب مخصص لكل مستوى</li>
-                    <li>بيئة تعلم آمنة وداعمة</li>
-                    <li>جداول مرنة</li>
-                    <li>تقدم سريع وقابل للقياس</li>
+                    <li>Certified & Experienced Swimming Coach</li>
+                    <li>Customized Training for Every Level</li>
+                    <li>Safe & Supportive Learning Environment</li>
+                    <li>Flexible Scheduling</li>
+                    <li>Fast & Measurable Progress</li>
                 </ul>
             </div>
             
-            <!-- حصة تجريبية مجانية -->
-            <div class="free-trial">
-                <h3>حصة تجريبية مجانية متاحة</h3>
-                <p>جرب قبل الاشتراك - لا توجد مخاطرة!</p>
+            <!-- Pricing -->
+            <div class="pricing">
+                <h3>Swimming Packages</h3>
+                <div class="price-item">
+                    <div class="new-price">1,200 AED <span class="old-price">1,500 AED</span></div>
+                    <div>8 Classes | 40-60 min per session</div>
+                </div>
+                <div class="price-item">
+                    <div class="new-price">1,680 AED <span class="old-price">2,100 AED</span></div>
+                    <div>12 Classes | 40-60 min per session</div>
+                </div>
             </div>
             
-            <!-- أزرار الحجز -->
+            <!-- Free Trial -->
+            <div class="free-trial">
+                <h3>FREE TRIAL LESSON AVAILABLE</h3>
+                <p>Try before you commit - No risk!</p>
+            </div>
+            
+            <!-- Buttons -->
             <div class="buttons">
-                <a href="https://wa.me/971505064601?text=مرحباً، أريد حجز حصة في السباحة" class="btn btn-whatsapp" target="_blank">
+                <a href="https://wa.me/971505064601?text=Hello%20Coach%20Qasem,%20I%20want%20to%20book%20a%20swimming%20lesson" class="btn btn-whatsapp" target="_blank">
                     <i class="fab fa-whatsapp"></i>
-                    احجز حصتك الآن عبر واتساب
+                    BOOK YOUR TRIAL NOW
                 </a>
                 
                 <a href="https://instagram.com/swim.coach.qasem" class="btn btn-instagram" target="_blank">
                     <i class="fab fa-instagram"></i>
-                    تابعنا على إنستجرام
+                    FOLLOW ON INSTAGRAM
                 </a>
             </div>
         </div>
         
-        <!-- الفوتر -->
+        <!-- Footer -->
         <div class="footer">
-            <h3>احجز الآن ولا تفوت الفرصة</h3>
+            <h3>ENROLL NOW - LIMITED SPOTS AVAILABLE</h3>
             
             <div class="contact-info">
                 <a href="tel:+971505064601" class="phone">
@@ -262,17 +305,17 @@
             </div>
             
             <div class="slogan">
-                تعليم السباحة بثقة، أمان ونتائج ملموسة
+                Teaching swimming with confidence, safety & results.
             </div>
             
             <div class="warning">
-                الأماكن محدودة - سجل مبكراً!
+                Spots are limited - Book early!
             </div>
         </div>
     </div>
 
     <script>
-        // تأثير بسيط للأزرار
+        // Button click effect
         document.querySelectorAll('.btn').forEach(button => {
             button.addEventListener('click', function() {
                 this.style.transform = 'scale(0.95)';
